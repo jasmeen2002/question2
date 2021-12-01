@@ -79,7 +79,7 @@ const readDir =  (filename) => {
       this.data[idx + 2] = avg;
 
       // and reduce opacity
-      this.data[idx + 3] = this.data[idx + 3] >> 1;
+      // this.data[idx + 3] = this.data[idx + 3] >> 1;
     }
   }
   
